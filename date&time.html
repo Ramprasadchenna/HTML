@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>		
+<h1>Click to know Length of String</h1>
+<button onclick="myFunction()">Click here</button>
+<p id="demo"></p>
+<script>
+function myFunction() {
+var str = "RAMPRASAD CHENNA";
+var n = str.length;
+document.getElementById("demo").innerHTML = n;
+}
+</script>
+<title>JavaScript to display today Date and Time.</title>
+<script type="text/javascript">
+function getCurrentDate(){
+var curDate=new Date();
+document.getElementById("showDate").innerHTML = curDate.toString();
+}
+</script>
+</head>
+<body onLoad='getCurrentDate()' style="text-align: center">
+<h1>Get current date using JavaScript.</h1>
+<h2 id="showDate"></h2>
+</body>
+
+</html>

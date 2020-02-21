@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html>
+<body>
+<p>Click the button to sort the array.</p>
+<button onclick="myFunction()">Try it</button>
+<p id="demo"></p>
+<script>
+var games = ["Ball", "Over", "Average", "Match"];
+document.getElementById("demo").innerHTML = games;
+function myFunction() {
+games.sort();
+document.getElementById("demo").innerHTML = games;
+}
+</script>
+</body>
+</html>
